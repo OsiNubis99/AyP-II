@@ -1,0 +1,41 @@
+﻿Compilación iniciada a las 4/6/2018 2:49:17 p.m..
+     1>Proyecto "C:\Users\Root\Desktop\Proyect\PYC\PYC.vcxproj" en el nodo 2 (Build destinos).
+       El archivo del proyecto contiene ToolsVersion="15.0". Este conjunto de herramientas falta o es desconocido, en cuyo caso es posible que pueda resolver este problema instalando la versión apropiada de MSBuild. También es posible que, por motivos de directiva, se haya exigido a la compilación que use un valor determinado para ToolsVersion. Se tratará el proyecto como si contuviera ToolsVersion="4.0". Para obtener más información, vea http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>c:\users\root\desktop\proyect\pyc\client.h(16): warning C4018: '<' : no coinciden signed/unsigned
+     1>c:\users\root\desktop\proyect\pyc\consulta.h(228): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : vea la declaración de 'scanf'
+     1>c:\users\root\desktop\proyect\pyc\consulta.h(267): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : vea la declaración de 'scanf'
+     1>c:\users\root\desktop\proyect\pyc\consulta.h(288): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : vea la declaración de 'scanf'
+     1>c:\users\root\desktop\proyect\pyc\consulta.h(309): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : vea la declaración de 'scanf'
+     1>c:\users\root\desktop\proyect\pyc\consulta.h(330): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : vea la declaración de 'scanf'
+     1>c:\users\root\desktop\proyect\pyc\consulta.h(351): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : vea la declaración de 'scanf'
+     1>c:\users\root\desktop\proyect\pyc\consulta.h(370): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : vea la declaración de 'scanf'
+     1>c:\users\root\desktop\proyect\pyc\consulta.h(374): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : vea la declaración de 'scanf'
+     1>c:\users\root\desktop\proyect\pyc\consulta.h(382): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : vea la declaración de 'strcpy'
+     1>c:\users\root\desktop\proyect\pyc\consulta.h(383): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : vea la declaración de 'strcpy'
+     1>c:\users\root\desktop\proyect\pyc\consulta.h(385): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : vea la declaración de 'strcpy'
+     1>c:\users\root\desktop\proyect\pyc\consulta.h(386): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : vea la declaración de 'strcpy'
+     1>c:\users\root\desktop\proyect\pyc\archivos.h(243): warning C4101: 'a' : variable local sin referencia
+     1>c:\users\root\desktop\proyect\pyc\archivos.h(243): warning C4101: 'k' : variable local sin referencia
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Root\Desktop\Proyect\Debug\PYC.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Root\Desktop\Proyect\Debug\PYC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Root\Desktop\Proyect\Debug\PYC.lib" /MACHINE:X86 Debug\Main.obj
+         PYC.vcxproj -> C:\Users\Root\Desktop\Proyect\Debug\PYC.exe
+     1>Compilación del proyecto terminada "C:\Users\Root\Desktop\Proyect\PYC\PYC.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:07.55
